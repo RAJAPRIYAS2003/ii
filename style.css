@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+}
+ul li a{
+    padding: 8px;
+}
+ul li a{
+    font-size: 16px;
+}
+.homepage{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 45rem;
+    padding: 19px 0;
+    background: url("images/home-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: scroll;
+   
+}
+.homepage h1{
+    font-size: 40px;
+    margin: 0 0 8px;
+}
+.homepage p{
+    font-size: 20px;
+    margin: 0 0 16px;
+}
+.homepage a{
+   font-size: 20px;
+}
+#gallery .gallery1 img{
+    width: 348px;
+
+}
+@media screen and (max-width:768px){
+    #facility{
+        text-align: center;
+    }
+    #menu{
+        text-align: center;
+    }
+    #gallery{
+        text-align: center;
+    }
+    #team{
+        text-align: center;
+    }
+    #contact{
+        text-align: center;
+    }
+    #contact_icons{
+        text-align: center;
+    }
+}
+
